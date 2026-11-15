@@ -1,22 +1,22 @@
 /* 깔끔한 미니멀 스타일: 흰 배경 + 포인트 색 하나(바다 파랑). 색은 글자 포인트에만 씁니다. */
 
 :root {
-	--bg: #ffffff;
-	--text: #1f2933;
-	--muted: #7b8794;
-	--line: #e6eaee;
-	--soft: #f6f8fa;
-	--accent: #0e78bd;
+	--bg: #f8fbff;
+	--text: #14284b;
+	--muted: #5f7499;
+	--line: #d6e4f7;
+	--soft: #eaf2fd;
+	--accent: #1f6feb;
 }
 
 @media (prefers-color-scheme: dark) {
 	:root {
-		--bg: #12171c;
-		--text: #e8ecef;
-		--muted: #8f9aa6;
-		--line: #28313a;
-		--soft: #1a2128;
-		--accent: #5ccaf5;
+		--bg: #0b1426;
+		--text: #e4ecfa;
+		--muted: #8aa0c4;
+		--line: #1f3355;
+		--soft: #12203a;
+		--accent: #5aa2ff;
 	}
 }
 
