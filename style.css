@@ -186,3 +186,5 @@ html { -webkit-text-size-adjust: 100%; text-size-adjust: 100%; }
 	color: #fff; background: var(--accent); border: none; border-radius: 6px;
 }
 .request-submit:disabled { opacity: 0.6; cursor: default; }
+
+.credit { margin-top: 32px; font-size: 0.78rem; color: var(--muted); }
