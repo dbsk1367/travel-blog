@@ -188,3 +188,19 @@ html { -webkit-text-size-adjust: 100%; text-size-adjust: 100%; }
 .request-submit:disabled { opacity: 0.6; cursor: default; }
 
 .credit { margin-top: 32px; font-size: 0.78rem; color: var(--muted); }
+
+/* 상품 추천 (쿠팡 파트너스) */
+.shop-disclosure { font-size: 0.85rem; color: var(--muted); margin: 0 0 1em; }
+.shop-list { list-style: none; margin: 0 0 1.2em; padding: 0; }
+.shop-list li { display: flex; justify-content: space-between; align-items: flex-start; gap: 14px; padding: 14px 0; margin: 0; border-bottom: 1px solid var(--line); }
+.shop-list li:first-child { border-top: 1px solid var(--line); }
+.shop-list .shop-name { display: block; font-weight: 700; }
+.shop-list .shop-why { display: block; color: var(--muted); font-size: 0.92rem; line-height: 1.6; margin-top: 2px; }
+.shop-link {
+	flex: none; font-size: 0.85rem; font-weight: 600; line-height: 1; white-space: nowrap;
+	padding: 8px 14px; border-radius: 999px; color: var(--accent); border: 1px solid var(--accent);
+}
+.shop-link:hover { background: var(--accent); color: var(--bg); text-decoration: none; }
+@media (max-width: 600px) {
+	.shop-list li { flex-direction: column; gap: 8px; }
+}
